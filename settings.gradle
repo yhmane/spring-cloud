@@ -1,0 +1,5 @@
+rootProject.name = 'spring-cloud'
+include 'chapter3'
+include 'chapter3:licensing-service'
+findProject(':chapter3:licensing-service')?.name = 'licensing-service'
+
